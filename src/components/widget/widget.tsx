@@ -1,5 +1,6 @@
 import { default as Text } from '../text'
 import { default as TextInput } from '../text-input'
+import '/dist/index.css'
 
 export interface WidgetProps {
     widget_type: string;
