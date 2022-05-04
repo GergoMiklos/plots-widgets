@@ -1,7 +1,6 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Text from './text';
-import {Default2} from "../text-input/text-input.stories";
 
 export default {
     title: "PlotoloWidgets/Text",
