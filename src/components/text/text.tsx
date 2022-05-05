@@ -1,5 +1,4 @@
 import React from 'react';
-import 'dist/index.css'
 
 export interface TextProps {
     value: string;
