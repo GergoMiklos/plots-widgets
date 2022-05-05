@@ -1,6 +1,6 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import TextInput, {TextInputProps} from './text-input';
+import { TextInput } from '../src';
+import {TextInputProps} from "../src/components/text-input/text-input";
 
 export default {
     title: "PlotoloWidgets/TextInput",

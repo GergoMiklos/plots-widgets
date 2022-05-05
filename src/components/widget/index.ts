@@ -1,1 +1,0 @@
-export { default, WIDGET_TYPES } from './widget'

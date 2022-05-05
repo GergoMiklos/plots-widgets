@@ -1,6 +1,5 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Text from './text';
+import { Text } from '../src';
 
 export default {
     title: "PlotoloWidgets/Text",
