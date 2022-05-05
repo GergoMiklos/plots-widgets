@@ -28,11 +28,12 @@ export default [
             resolve(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
-            postcss({
-                minimize: true,
-                modules: true, // <--- this line
-                extract: true,
-            }),
+            postcss(),
+            // postcss({
+            //     minimize: true,
+            //     //modules: true, // <--- this line
+            //     extract: true,
+            // }),
             terser(),
         ],
     },

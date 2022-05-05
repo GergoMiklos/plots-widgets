@@ -1,3 +1,3 @@
-import 'index.css'
+import "~tailwindcss/tailwind.css"
 
 export * from './components'
